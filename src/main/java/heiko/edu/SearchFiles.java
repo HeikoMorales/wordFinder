@@ -41,8 +41,8 @@ public class SearchFiles extends RecursiveTask<List<String>> {
                             .findAny().isPresent();
 
                     /*****************************************************************************************************************
-                    *   En caso de quere contar las veces que aparece el word en el archivo se puede usar:                           *
-				    *   int count += Files.lines(path, StandardCharsets.ISO_8859_1).filter(a -> a.contains(palabraBuscada)).count(); *
+                    *   If you want to count the occurrences of the word in the file, you can use:                                   *
+                    *   int count += Files.lines(path, StandardCharsets.ISO_8859_1).filter(line -> line.contains(searchWord)).count(); *
                     ******************************************************************************************************************/
                     
                     if (find) {

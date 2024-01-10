@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 public final class App {
 
-    final static String MAIN_DIRECTORY = "C:\\Users\\heiko\\Desktop\\files";
+    final static String MAIN_DIRECTORY = "PATH_TO_YOUR_DIRECTORY";
     Scanner scanner;
     
     private App() {
